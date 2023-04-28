@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    font-family: 'Open Sans';
+    font-style: normal;
+    background-color: #F5F5F5!important;
+  }
+  
+  .navbar-header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  #nav a{
+     
+    color: #090076;
+    cursor: pointer;
+    transition:all 0.3s ease;   
+  }
+  #nav a:hover {
+  text-decoration:underline;
+  }
+  
+  
+  #istad {
+    width: 80px;
+    height: 80px;
+    left: 123px;
+    top: 43px;
+    margin-right: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    padding: 20px;
+  }
+  
+  #home {
+    color: black;
+    text-decoration-line: underline;
+  }
+  
+  #longin {
+    box-sizing: border-box;
+    width: 116px;
+    height: 41px;
+    background: #FFFFFF;
+    border: 2px solid #090076;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+  
+  #signup {
+    box-sizing: border-box;
+    width: 116px;
+    height: 41px;
+    background: #090076;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  
+  .email {
+    display: flex;
+    padding: 10px;
+  }
+  
+  #imgshow {
+    width: 100%;
+  }
+  
+  #btnget {
+    width: 266.92px;
+    height: 70.04px;
+    left: 10rem;
+    top: 48rem;
+    background: #090076;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+  }
+  
+  .photo1 img {
+    width: 100%;
+  }
+  
+  #search {
+    border: 3px solid #090076;
+    border-radius: 64px;
+    box-sizing: border-box;
+    width: 499px;
+    height: 44px;
+    padding: 10px;
+    padding: 10px;
+    top: 52.28px;
+  }
+  
+  #btnsearch {
+    padding: 15px;
+    min-width: 40px;
+  }
+  
+  
+  #discover {
+    height: 70.04px;
+    background: #090076;
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 40px;
+  }
+  
+  .style-search {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .style-item-icon {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+  
+  .style-item {
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  
+  .style-item:focus~.style-item-icon,
+  .style-item:focus~.style-search {
+    visibility: hidden;
+  }
+  
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .mb-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .nav-pills {
+    background: rgba(160, 157, 157, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  
+  .me-sm-5 {
+    box-sizing: border-box;
+    width: 263.8px;
+    height: 48.39px;
+    border: 1px solid #201F1F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: #A09D9D 20%;
+  }
+  
+  .badge {
+    width: 78px;
+    height: 22.86px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #090076!important;
+    text-decoration: none;
+  }
+  .Img{
+    width: 100%;
+    height: 400px;
+  }
+  h1 ,h2,p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+  }
+
+  /* ----- footer ------ */
+  footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 290px;
+    background-color: #090076;
+    color: white;
+    
+  
+  }
+  .footer1{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .footer1 img {
+    width: 95px;
+    height: 95px;
+  }
+  .footer1 h5 {
+    padding-top: 10px;
+  }
+  .Fol-btn button {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 160px;
+    padding: 5px;
+  }
+  .Fol-btn i{
+    padding-right: 20px;
+  }
+  .Fol-btn button:hover{
+   background-color:aliceblue;
+  }
+  
+  footer h6{
+    text-align: center;
+       
+  }
+  @media screen and (min-width:320px) and (max-width:567px) {
+    #search {
+      width: 300px;
+    }
+    .img-left img{
+    display: none;
+    }
+    .container-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container-form  .form{
+       width: 100%;
+    }
+    .form .checkbox-text{
+        display: flex;
+        justify-content: space-between; 
+        font-size: 13px;  
+        margin-top: 10px;
+       }
+    .footer1 img {
+        width: 50px;
+        height: 50px;
+    }
+    .footer1 h3 {
+        font-size: 15px;
+    }
+    .footer1 h5 {
+        font-size: 13px;
+    }
+    footer{
+        height: 220px;
+    }
+    .Fol-btn button{
+        width: 100px;
+        font-size: 10px;
+    }
+    .Fol-btn i{
+        padding-right: none;
+      }
+    footer h6{
+        font-size: small;
+    }
+  }
+  @media screen and (min-width:567px) and (max-width:990px){
+    #search {
+        width: 200px;
+      
+    }
+    .img-left img{
+        width:400px;
+        height: 600px;
+    }
+  }
+  
+  @media screen and (min-width:990px) and (max-width:1340px) {
+    #search {
+        width: 200px;
+      
+    }
+    .img-left img{
+        width:500px;
+        height: 600px;
+    }
+    .footer1 img {
+      width: 50px;
+      height: 50px;
+  }
+  .footer1 h3 {
+      font-size: 15px;
+  }
+  .footer1 h5 {
+      font-size: 13px;
+  }
+  footer{
+      height: 220px;
+  }
+  .Fol-btn button{
+      width: 100px;
+      font-size: 10px;
+  }
+  .Fol-btn i{
+      padding-right: none;
+    }
+  footer h6{
+      font-size: small;
+  }
+  }
+  
+  
+  
